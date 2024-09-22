@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": true,
+  "workbench.editor.tabSizingFixedMinWidth": 100,
+  "prettier.printWidth": 150,
+  "html.format.wrapAttributes": "force-aligned",
+  "prettier.bracketSameLine": true,
+  "prettier.singleAttributePerLine": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

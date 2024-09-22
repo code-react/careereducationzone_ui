@@ -1,0 +1,61 @@
+@import "./../../../../assets/styles//variables";
+.header_bg {
+   background: #FFFFFF24;
+
+  @media (max-width: 480px) {
+    padding: 80px 30px;
+    height: 200px;
+  }
+  .inner {
+    width: 100%;
+    float: left;
+    position: relative;
+    h1 {
+      font-size: 36px;
+      position: relative;
+      text-transform: uppercase;
+      font-weight: 600;
+      @media (max-width: 480px) {
+        font-size: 28px;
+      }
+    }
+    .breadCrumbTop {
+      display: flex;
+      justify-content: center;
+
+      li {
+        color: $white;
+        font-size: 12px;
+        line-height: 22px;
+        margin: 0 10px 0 17px;
+        position: relative;
+        text-transform: uppercase;
+        &.active {
+          color: $black;
+          font-weight: bold;
+        }
+        &:not(:first-child)::before {
+          color: $white;
+          content: "\f105";
+          font-family: "Mulish", sans-serif;
+          font-size: 12px;
+          font-weight: normal;
+          left: -15px;
+          line-height: normal;
+          margin-top: -7px;
+          position: absolute;
+          top: 50%;
+        }
+      }
+    }
+  }
+}
+.text {
+  background-color: $red;
+  p {
+    color: $white;
+  }
+}
+.breadcrumbLink {
+  border: 2px solid red;
+}

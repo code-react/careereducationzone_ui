@@ -1,0 +1,77 @@
+.main_wrapper {
+  margin-top: 100px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.carousel-wrapper {
+  width: 100%;
+}
+
+.tech-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+}
+
+.course-title {
+  margin: 10px 0 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #344054;
+}
+
+.title-head {
+  margin-left: 10px;
+}
+
+.course-count {
+  margin: 0;
+  font-size: 14px;
+  color: #667085;
+}
+
+.title h3 {
+  font-family: Nunito, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #101828;
+  text-align: center;
+}
+
+.title p {
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .main_wrapper {
+    margin-top: 4rem;
+  }
+
+  .tech-card {
+    padding: 15px;
+  }
+
+  .title h3 {
+    font-size: 20px;
+  }
+
+  .title p {
+    font-size: 14px;
+  }
+}

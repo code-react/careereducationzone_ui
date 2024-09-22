@@ -1,0 +1,175 @@
+@import "../../../../assets/styles/variables";
+@import "../../../../assets/styles/mixins";
+
+.top_menu_container {
+  display: flex;
+  justify-content: space-between;
+  background-color: $red;
+  padding: 0.6rem 0px 0.6rem 0;
+  color: $white;
+  align-items: center;
+
+  flex-wrap: wrap;
+  .left {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    .text {
+      margin: 0 10px 0 10px;
+      @include font-small;
+      cursor: pointer;
+    }
+    svg {
+      margin: 0 5px 0 5px;
+      cursor: pointer;
+    }
+  }
+  .right {
+    display: flex;
+    .text {
+      margin: 0 10px 0 10px;
+      @include font-small;
+      cursor: pointer;
+    }
+    .btn_auth {
+      background-color: #9b2f2f;
+      padding: 5px 15px;
+      border-radius: 3px;
+      font-weight: 600;
+      color: $white;
+      &:hover {
+        background-color: #c74242;
+      }
+    }
+  }
+}
+
+.navbar_body {
+  align-items: center;
+}
+.middle_top_menu {
+  background: linear-gradient(180deg, #100900 0%, #593302 100%);
+  a {
+    color: floralwhite;
+    img {
+      object-fit: contain;
+    }
+  }
+  .navbar_nav {
+    .active {
+      color: #023098;
+    }
+    a {
+      font-size: 16px;
+      text-transform: capitalize;
+      font-weight: 500;
+      @media (max-width: 576px) {
+        margin: 0 8px;
+      }
+      &:hover {
+        color: #023098;
+      }
+    }
+  }
+  .logo_wrapper {
+    display: flex;
+    justify-content: flex-start;
+    img {
+      @media (max-width: 480px) {
+        width: 100px;
+      }
+    }
+    .logo_text {
+      p:first-child {
+        color: #467443;
+        font-weight: bold;
+        font-size: 28px;
+      }
+      p:nth-child(2) {
+        color: #007bb4;
+        font-size: 12px;
+        // font-weight: 400;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.navbar_nav {
+  flex: 1;
+  justify-content: center;
+  gap: 20px;
+  font-family: "Nunito";
+  margin: auto;
+}
+
+/* Styles for mobile screens */
+@media (max-width: 768px) {
+  .navbar_nav {
+    gap: 10px;
+  }
+}
+.active {
+  color: #023098 !important;
+  font-weight: 600;
+}
+
+.dropdown_basic {
+  padding: 0 !important;
+}
+
+.right_side_btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  .login_btn {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 60px;
+    width: 85px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .show_btn {
+    display: none;
+    flex-direction: column;
+    // width: 10rem;
+    align-items: center;
+    gap: 0.5rem;
+    // height: 5rem;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    background: white;
+    border: 2px solid lightgray;
+    position: absolute;
+    top: 3.5rem;
+    left: 0rem;
+  }
+  .login_btn {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 60px;
+    width: 85px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      // font-weight: 500;
+      width: 100%;
+      text-align: center;
+      padding: 0.3rem 0.5rem;
+      border-radius: 0.3rem;
+      transition: color 0.2s ease-in-out;
+    }
+    span:hover {
+      color: #023098;
+    }
+  }
+  .login_btn:hover .show_btn {
+    display: flex;
+  }
+}
