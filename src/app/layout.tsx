@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "career education zone",
     "top education consulting firm",
     "college placement services",
-    "overseas education guidance",
+    "overseas education guidances",
     "career planning for students",
     "Patna education consultancy",
     "secure college admission Patna",
