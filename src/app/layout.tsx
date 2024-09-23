@@ -2,7 +2,7 @@ import "./globals.scss";
 import type { Metadata, NextPage } from "next";
 import "react-toastify/dist/ReactToastify.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { nunito } from "./fonts";
+import { outfit } from "./fonts";
 import { ToastContainer } from "react-toastify";
 
 import WebApp from "./webApp";
@@ -34,7 +34,7 @@ const RootLayout: NextPage<any> = (props) => {
   const { children, params } = props;
 
   return (
-    <html lang="en" className={nunito.className}>
+    <html lang="en" className={outfit.className}>
       <body>
         {/* <ToastContainer autoClose={2000} position="top-right" style={{ zIndex: "9999999" }} /> */}
         <WebApp>{children}</WebApp>

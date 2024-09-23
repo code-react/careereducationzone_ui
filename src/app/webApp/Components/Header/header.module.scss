@@ -48,7 +48,8 @@
   align-items: center;
 }
 .middle_top_menu {
-  background: linear-gradient(180deg, #100900 0%, #593302 100%);
+  // background: linear-gradient(180deg, #100900 0%, #593302 100%);
+  background: #120a00;
   a {
     color: floralwhite;
     img {
@@ -63,11 +64,12 @@
       font-size: 16px;
       text-transform: capitalize;
       font-weight: 500;
+      transition: all 0.2s ease-in-out;
       @media (max-width: 576px) {
         margin: 0 8px;
       }
       &:hover {
-        color: #023098;
+        color: #c26e00;
       }
     }
   }
