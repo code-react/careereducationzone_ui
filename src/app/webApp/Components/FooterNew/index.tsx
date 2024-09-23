@@ -70,7 +70,7 @@ function FooterNew() {
 
         {/* Copyright Text */}
         <div className={style.copy_right}>
-          © 2024 Career Education Zone. All rights reserved.
+          © {new Date().getFullYear()} Career Education Zone. All rights reserved.
         </div>
 
         {/* Social Icons */}
