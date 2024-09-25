@@ -9,11 +9,12 @@
 
 .carousel-wrapper {
   width: 100%;
+  margin-top: 1.6rem;
 }
 
 .tech-card {
   text-align: center;
-  padding: 20px;
+  padding: 0.6rem;
   border-radius: 8px;
   margin-bottom: 20px;
   transition: all 0.3s ease;
@@ -26,32 +27,34 @@
 }
 
 .course-title {
-  margin: 10px 0 0;
+  /* margin: 10px 0 0; */
   font-size: 16px;
   font-weight: 500;
   color: #344054;
+  margin-bottom: -2px;
 }
 
 .title-head {
   margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .course-count {
-  margin: 0;
+  margin-top: -2px;
   font-size: 14px;
   color: #667085;
 }
 
 .title h3 {
-  font-family: Nunito, sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: #101828;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000000;
   text-align: center;
 }
 
 .title p {
-  font-family: Nunito, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #667085;
@@ -68,10 +71,59 @@
   }
 
   .title h3 {
-    font-size: 20px;
+    font-size: 1.6rem;
   }
 
   .title p {
     font-size: 14px;
+  }
+}
+
+.carousel_wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.carousel_box {
+  width: 100%;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.box h4 {
+  margin-bottom: -4px;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.box p {
+  font-size: 0.8rem;
+  margin-top: -6px;
+  color: black;
+}
+
+
+@media (max-width: 768px) {
+  .carousel_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
   }
 }

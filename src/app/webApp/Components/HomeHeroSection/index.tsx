@@ -33,9 +33,9 @@ function HomeHeroSection() {
             </div>
           </div>
         </div>
-        <div className={style.image_wrapper}>
-          <Image src="/assets/Home/hero_img.png" alt="Students" width={400} height={400} priority />
-        </div>
+        <Image src="/assets/Home/hero_img.png" alt="Students" width={400} height={400} className={style.hero_img_box} priority />
+        {/* <div className={style.image_wrapper}>
+        </div> */}
       </div>
     </div>
   );
