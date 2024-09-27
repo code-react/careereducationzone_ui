@@ -10,25 +10,9 @@ const WebApp = async ({ children }: { children: React.ReactNode }) => {
 
   return (
     <div style={{ width: "100%", overflowX: "hidden" }}>
-      {pathname === "/login" ||
-      pathname === "/employee/login" ||
-      pathname.startsWith("/employee") ||
-      pathname.startsWith("/admin") ||
-      pathname.startsWith("/e-office") ? (
-        ""
-      ) : (
-        <Header />
-      )}
+      {pathname === "/login" ? "" : <Header />}
       <Suspense fallback={<Loader />}>{children}</Suspense>
-      {pathname === "/login" ||
-      pathname === "/employee/login" ||
-      pathname.startsWith("/employee") ||
-      pathname.startsWith("/admin") ||
-      pathname.startsWith("/e-office") ? (
-        ""
-      ) : (
-        <FooterNew />
-      )}
+      {pathname === "/login" ? "" : <FooterNew />}
     </div>
   );
 };
