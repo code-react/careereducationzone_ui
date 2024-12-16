@@ -7,11 +7,8 @@ import styles from "./header.module.scss";
 import TopHeader from "../TopHeader";
 
 const Header = () => {
-  const pathName = usePathname();
   const [scrollPosition, setScrollPosition] = useState(0);
   const [headerClass, setHeaderClass] = useState("");
-  const [lgShow, setLgShow] = useState(false);
-  const dropdownRef = useRef<any>(null);
 
   useEffect(() => {
     const handleScroll = () => {
