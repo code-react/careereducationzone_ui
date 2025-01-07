@@ -2,7 +2,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import {  Nav, Navbar, Offcanvas } from "react-bootstrap";
+import { Nav, Navbar, Offcanvas } from "react-bootstrap";
 import styles from "./header.module.scss";
 import TopHeader from "../TopHeader";
 
@@ -66,7 +66,7 @@ const Header = () => {
                       </Link>
                     </Nav.Link>
                     <Nav.Link as="span" className={pathname === "/about" ? styles.active : ""}>
-                      <Link href="/">About</Link>
+                      <Link href="/about">About</Link>
                     </Nav.Link>
                     <Nav.Link as="span" className={pathname === "/call-letter" ? styles.active : ""}>
                       <Link href="/">Exams</Link>

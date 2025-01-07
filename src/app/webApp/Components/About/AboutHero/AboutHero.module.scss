@@ -1,0 +1,24 @@
+.aboutUsContainer {
+  background-color: #2b1810;
+  color: white;
+  padding: 8rem 0;
+  .container1 {
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .breadcrumb {
+      font-size: 0.875rem;
+      color: #d1d5db;
+
+      .separator {
+        margin: 0 0.5rem;
+      }
+    }
+  }
+}

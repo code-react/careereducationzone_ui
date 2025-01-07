@@ -1,0 +1,62 @@
+.statBadge {
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  text-align: center;
+
+  .fontBold {
+    font-weight: bold;
+  }
+
+  .smallText {
+    font-size: 0.875rem;
+  }
+}
+
+.statsSection {
+  background-color: #1a1a1a;
+  padding: 2rem 0rem;
+  margin-top: 4rem;
+
+  .statItem {
+    text-align: center;
+    color: white;
+
+    .iconWrapper {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+
+      svg {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+
+    .statNumber {
+      font-size: 2.25rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .statLabel {
+      font-size: 0.875rem;
+      opacity: 0.8;
+      white-space: pre-line;
+    }
+  }
+}
+
+.gridContainer1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

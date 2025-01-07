@@ -1,0 +1,27 @@
+.howWeWorkContainer {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+
+  .header {
+    text-align: center;
+    margin-bottom: 4rem;
+
+    h2 {
+      font-size: 1.875rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #4b5563;
+    }
+  }
+
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    position: relative;
+  }
+}
