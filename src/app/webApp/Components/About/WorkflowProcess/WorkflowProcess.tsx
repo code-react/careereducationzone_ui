@@ -7,7 +7,7 @@ const WorkflowProcess = () => {
     <div className={`container ${styles.howWeWorkContainer}`}>
       <div className={styles.header}>
         <h2>How we work ?</h2>
-        <p>We are awesome team having 17 year successful experience, let's see how together we build your dreams.</p>
+        <p>We are awesome team having 10+ year successful experience, let's see how together we build your dreams.</p>
       </div>
 
       <div className={styles.gridContainer}>

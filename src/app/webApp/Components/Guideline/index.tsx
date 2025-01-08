@@ -18,12 +18,11 @@ const Guideline = () => {
             <div className={style.right}>
               <h1 className={style.guide_heading}>A Proper Guideline Can Make Your Career Successful</h1>
               <p className={style.guide_desc}>
-                Proin magna felis, tincidunt eget lectus id, maximus ultricies eros. Aliquam eu lacus vitae nulla faucibus mollis. Proin velit mi,
-                molestie commodo neque laoreet a.Fusce cursus iaculis elit vitae auctor. Mauris venenatis vestibulum eros, sed turpis molestie ac.
-                Nunc convallis nisi in maximus tincidunt.
+                From planning your educational path to achieving your career goals, we are here to support you. With expert advice and resources
+                tailored to your needs, you can unlock endless opportunities.
               </p>
               <div className={style.founder_view}>
-                <h3 className={style.founder_name}>Naushad Aalam</h3>
+                <h3 className={style.founder_name}>Vikash Kumar</h3>
                 <p className={style.founder_des}>Founder & CEO</p>
               </div>
             </div>

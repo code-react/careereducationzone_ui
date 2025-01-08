@@ -8,23 +8,24 @@ const AboutStats = () => {
       <div className={`container ${styles.gridContainer1}`}>
         {[
           {
-            number: "98%",
-            label: "Success score\non Upwork",
+            number: "9,220+",
+            label: "Successful Admission",
             icon: <Target />,
           },
+        
           {
-            number: "400+",
-            label: "Completed Project",
+            number: "100+",
+            label: "Colleges Tie-Up",
             icon: <Briefcase />,
           },
           {
-            number: "12+",
+            number: "10+",
             label: "Year of Experience",
             icon: <Crown />,
           },
           {
-            number: "150+",
-            label: "Client Worldwide",
+            number: "50+",
+            label: "Expert Consulter",
             icon: <Users />,
           },
         ].map((stat, index) => (

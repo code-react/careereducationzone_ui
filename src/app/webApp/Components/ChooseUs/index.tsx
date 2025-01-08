@@ -6,19 +6,19 @@ import { GoArrowRight } from "react-icons/go";
 const reason: any = [
   {
     heading: "Flexible Learning",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis pulvinar.",
+    desc: "Access courses anytime, anywhere, and at your own pace.",
   },
   {
     heading: "Expert Instructors",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis pulvinar.",
+    desc: "Learn from industry-leading experts and professionals.",
   },
   {
     heading: "Valid Certifications",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis pulvinar.",
+    desc: "Earn certifications recognized globally.",
   },
   {
     heading: "Comprehensive",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis pulvinar.",
+    desc: "Get complete guidance to help you achieve your goals.",
   },
 ];
 
@@ -29,8 +29,7 @@ const ChooseUs = () => {
         <div className={style.choose_us_upper}>
           <h2 className={style.heading}>Why should you choose us?</h2>
           <p className={style.desc}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. labore et
-            dolore magna aliqua
+            Career Education Zone consultant provides the best admission counseling possible to aspiring college& graduate students.
           </p>
           <Link className={style.learn_more_btn} href={""}>
             Learn More

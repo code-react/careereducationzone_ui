@@ -13,7 +13,7 @@ export default function ContactForm() {
             <p className={style.label}>Email Address</p>
             <div className={style.info}>
               <Mail />
-              <p>123 123 123</p>
+              <p>info@careereducationzone.com</p>
             </div>
           </div>
 
@@ -21,7 +21,7 @@ export default function ContactForm() {
             <p className={style.label}>Phone Number</p>
             <div className={style.info}>
               <Phone />
-              <p>info@gmail.com</p>
+              <p>9905408865</p>
             </div>
           </div>
 
@@ -29,7 +29,7 @@ export default function ContactForm() {
             <p className={style.label}>Business Address</p>
             <div className={style.info}>
               <MapPin />
-              <p>[Address]</p>
+              <p>Naka no-3, Hajipur, Vaishali Bihar(844101)</p>
             </div>
           </div>
         </div>
